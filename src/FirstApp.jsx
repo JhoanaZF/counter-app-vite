@@ -7,13 +7,14 @@
 //     return 4 + 4;
 // };
 
-export const FirstApp = () => {
+export const FirstApp = ({ title, subTitle }) => {
+    // console.log(props);
     return (
         <>
             {/* <h1>{myFunction()}</h1> */}
             {/* <code>{JSON.stringify(newMessage)}</code> */}
-            <h1>Jhoana</h1>
-            <p>Soy un subtitulo</p>
+            <h1>{title}</h1>
+            <p>{subTitle}</p>
         </>
     );
 };
